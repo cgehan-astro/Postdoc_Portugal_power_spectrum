@@ -10,7 +10,7 @@ This project aims at building a Lomb-Scargle power spectrum from a light curve, 
 
 ### Dataset
 
-The dataset is composed of light curves; one is provided as an example here: 375120406.fits.
+The dataset is composed of light curves; one is provided as an example here: *.fits.
 
 
 ### Methodology
@@ -20,7 +20,7 @@ The light curves are not always evenly spaced in time, therefore it is safer to 
 
 ### Results
 
-The resulting power spectrum is saved in the file 375120406_power_spectrum.txt, where the first column indicates the frequency in muHz and the second column indicates the power spectral density in ppm**2/muHz. Additionally, two plots are saved. The first plot is Light_curve.pdf and shows the light curve, i.e. the flux time-serie, which has been recorded for an observed star over a time span of about 150 days. The second plot is Power_spectrum.pdf and shows the corresponding power spectrum that results from the Lomb-Scargle approach, i.e. the power spectral density as a function of frequency; we can see a power excess around 40 muHz that corresponds to stellar oscillation modes caused by the propagation of internal waves inside stars, which allow us to probe the interior of stars: this field is called asteroseismology, i.e. stellar seismology that works on principle similar as for Earth's seismology.
+The resulting power spectrum is saved in the file *_power_spectrum.txt, where the first column indicates the frequency in muHz and the second column indicates the power spectral density in ppm**2/muHz. Additionally, two plots are saved. The first plot is Light_curve.pdf and shows the light curve, i.e. the flux time-serie, which has been recorded for an observed star over a time span of about 150 days. The second plot is Power_spectrum.pdf and shows the corresponding power spectrum that results from the Lomb-Scargle approach, i.e. the power spectral density as a function of frequency; we can see a power excess around 40 muHz that corresponds to stellar oscillation modes caused by the propagation of internal waves inside stars, which allow us to probe the interior of stars: this field is called asteroseismology, i.e. stellar seismology that works on principle similar as for Earth's seismology.
 
 
 ### Installation: with anaconda
